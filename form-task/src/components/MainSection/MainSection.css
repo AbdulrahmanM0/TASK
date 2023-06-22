@@ -1,0 +1,26 @@
+.mainSection{
+    background-image: url('../Assets/Images/blue-brushstrokes-background_125540-809.avif');
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.mainSection .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/*  ADD USER BUTTON */
+.addUserBTN{
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    letter-spacing: .2rem !important;
+}
+.addUserIcon{
+    margin-left: 10px;
+    font-size: 1.9rem !important;
+  
+
+}

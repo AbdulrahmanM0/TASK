@@ -1,0 +1,78 @@
+/* ADD USER BANAR */
+.addUserBanar{
+    transform: scaleX(1);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(81, 79, 79, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+}
+.addUserBanar_unactive{
+    transform: scaleX(0);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM CARD */
+.formContainer{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #ccc;
+    border: 5px solid #1976d2;
+    width: 80%;
+    max-width: 560px;
+    min-width: 350px;
+}
+.formContainer form{
+    padding: 20px;
+}
+.formContainer .formBtn{
+    width: 110px;
+}
+.formContainer input{
+    margin-bottom: 10px;
+    height: 40px;
+    border: 2px solid #1976d2;
+   
+}
+.formContainer input:last-child{
+    border: 0;
+    margin-left: 30px;
+}
+.formButtons{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*  USER IMAGE */
+.defaultUserImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #1976d2;
+}
+.userImgForm{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 660px) {
+    .userImgForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .defaultUserImg{
+        margin-bottom: 10px;
+    }
+}
