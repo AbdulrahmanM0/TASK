@@ -1,0 +1,51 @@
+.employee-section .content-container{
+    background-image: url('../../Assets/Images/pexels-tirachard-kumtanom-733857.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.employee-section .content-container h3{
+    font-weight: 600;
+}
+
+.employee-section .container{
+    height: 90vh;
+    
+}
+
+.employee-section .form-container{
+    height: 100%;
+    max-width: 350px;
+    min-width: 200px;
+    padding: 20px;
+}
+
+.employee-section .report-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.employee-section .report-form input{
+    margin-bottom: 15px;
+    height: 40px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+.employee-section .report-form textarea{
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+.reportToUpdate{
+    background-color: #fff;
+    box-shadow: 10px 10px 10px #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}

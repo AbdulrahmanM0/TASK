@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('./Assets/Images/pexels-tirachard-kumtanom-733852.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

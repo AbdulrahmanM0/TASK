@@ -1,0 +1,37 @@
+.searchInput{
+    width: 100%;
+    font-size: 1.2rem;
+    height: 40px;
+}
+
+.managerBoard{
+    display: flex;
+}
+
+.reportsList{
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #ccc;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.reportsList li{
+    border-bottom: 3px solid #ccc;
+    padding: 10px;
+}
+
+.reportSide{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.hidden{
+    display: none;
+}
+
+@media (max-width: 780px) {
+    .managerBoard{
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+.card{
+    min-width: 230px;
+    max-width: 345px;
+    height: 320px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card .actionCard{
+    height: 100%;
+}
