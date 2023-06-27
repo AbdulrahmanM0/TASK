@@ -16,7 +16,7 @@ function FormComponent() {
 
   useEffect(()=>{
     const getData = axios.get('http://localhost:3001/users').then(res=>setUserData(res.data));
-  },[userData]);
+  },[]);
 
   const handleSubmit = (values) => {
     const check = userData.some((data) => data.email === values.email);
